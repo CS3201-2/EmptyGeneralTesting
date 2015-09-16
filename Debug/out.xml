@@ -1,0 +1,15 @@
+<?xml-stylesheet type="text/xsl" href="analysis.xsl"?>
+<test_results>
+<info>
+<name>Debug</name><parsing_time_taken>1322.000000</parsing_time_taken>
+</info>
+<queries>
+<query>
+<id ReturnTuple="1" Modifies="1" SuchThat="1" CondNum="3" RelNum="1" comment="comment">1</id><querystr><![CDATA[variable v; while w; Select v such that Modifies(2, v)]]></querystr>
+<stuans>i</stuans>
+<correct>i</correct>
+<time_taken>47.000000</time_taken>
+<passed/>
+</query>
+</queries>
+</test_results>

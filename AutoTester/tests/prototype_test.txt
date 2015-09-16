@@ -1,0 +1,31 @@
+procedure Example {
+  xyz = 2;
+  zu = 3;
+  i = 5;
+  while i {
+    xyz = xyz + 1;
+        
+    zu = zu + xyz + i;
+    
+    i = i + 1; }
+
+   aaa = asd + xdas + i;
+    
+    asdas = asfa + 1;
+
+
+    while a {
+    xyz = xyz + 1;
+        
+    zu = zu + xyz + i;
+    
+    i = i + 1; }
+
+	aaa = asd + xdas + i;
+   }
+
+procedure p {
+  
+  zu = zu + xyz + i; }
+
+

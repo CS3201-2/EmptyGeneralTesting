@@ -1,0 +1,83 @@
+﻿Build started 16/9/2015 3:34:48 PM.
+     1>Project "C:\Users\EDWARD\Downloads\AutomaticProjectTesting_Aug2015_VS2015\AutomaticProjectTesting_Aug2015_VS2015\EmptyGeneralTesting\SPA\SPA.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\SPA.pdb" /Gd /TP /analyze- /errorReport:prompt ..\source\AnotherExpressionTree.cpp ..\source\AST.cpp ..\source\ASTNode.cpp ..\source\Checker.cpp ..\source\Controller.cpp ..\source\Follows.cpp ..\source\Modifies.cpp ..\source\Parent.cpp ..\source\Parser.cpp ..\source\PKB.cpp ..\source\Prefix.cpp ..\source\PreProcessor.cpp ..\source\ProcTable.cpp ..\source\QueryController.cpp ..\source\QueryEvaluator.cpp ..\source\QueryResultProjector.cpp ..\source\QueryTree.cpp ..\source\QueryValidator.cpp ..\source\Relationship.cpp ..\source\RelationshipTable.cpp ..\source\ResultTable.cpp ..\source\StackNode.cpp ..\source\Suffix.cpp ..\source\UI.cpp ..\source\Uses.cpp ..\source\ValidatorMain.cpp ..\source\VarTable.cpp
+         VarTable.cpp
+         ValidatorMain.cpp
+         Uses.cpp
+     1>c:\users\edward\downloads\automaticprojecttesting_aug2015_vs2015\automaticprojecttesting_aug2015_vs2015\emptygeneraltesting\source\uses.cpp(42): warning C4018: '<': signed/unsigned mismatch
+         UI.cpp
+         Suffix.cpp
+         StackNode.cpp
+         ResultTable.cpp
+         RelationshipTable.cpp
+         Relationship.cpp
+         QueryValidator.cpp
+     1>c:\users\edward\downloads\automaticprojecttesting_aug2015_vs2015\automaticprojecttesting_aug2015_vs2015\emptygeneraltesting\source\queryvalidator.cpp(73): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\edward\downloads\automaticprojecttesting_aug2015_vs2015\automaticprojecttesting_aug2015_vs2015\emptygeneraltesting\source\queryvalidator.cpp(160): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\edward\downloads\automaticprojecttesting_aug2015_vs2015\automaticprojecttesting_aug2015_vs2015\emptygeneraltesting\source\queryvalidator.cpp(350): warning C4018: '<': signed/unsigned mismatch
+         QueryTree.cpp
+         QueryResultProjector.cpp
+         QueryEvaluator.cpp
+         QueryController.cpp
+         ProcTable.cpp
+         PreProcessor.cpp
+         Prefix.cpp
+         PKB.cpp
+         Parser.cpp
+         Parent.cpp
+         Generating Code...
+     1>c:\users\edward\downloads\automaticprojecttesting_aug2015_vs2015\automaticprojecttesting_aug2015_vs2015\emptygeneraltesting\source\queryevaluator.cpp(260): warning C4715: 'QueryEvaluator::processModifies': not all control paths return a value
+     1>c:\users\edward\downloads\automaticprojecttesting_aug2015_vs2015\automaticprojecttesting_aug2015_vs2015\emptygeneraltesting\source\queryevaluator.cpp(722): warning C4715: 'QueryEvaluator::processFollows': not all control paths return a value
+     1>c:\users\edward\downloads\automaticprojecttesting_aug2015_vs2015\automaticprojecttesting_aug2015_vs2015\emptygeneraltesting\source\queryevaluator.cpp(529): warning C4715: 'QueryEvaluator::processParent': not all control paths return a value
+     1>c:\users\edward\downloads\automaticprojecttesting_aug2015_vs2015\automaticprojecttesting_aug2015_vs2015\emptygeneraltesting\source\queryevaluator.cpp(393): warning C4715: 'QueryEvaluator::processUses': not all control paths return a value
+     1>c:\users\edward\downloads\automaticprojecttesting_aug2015_vs2015\automaticprojecttesting_aug2015_vs2015\emptygeneraltesting\source\queryevaluator.cpp(886): warning C4715: 'QueryEvaluator::processParentStar': not all control paths return a value
+     1>c:\users\edward\downloads\automaticprojecttesting_aug2015_vs2015\automaticprojecttesting_aug2015_vs2015\emptygeneraltesting\source\queryevaluator.cpp(1122): warning C4715: 'QueryEvaluator::processFollowsStar': not all control paths return a value
+     1>c:\users\edward\downloads\automaticprojecttesting_aug2015_vs2015\automaticprojecttesting_aug2015_vs2015\emptygeneraltesting\source\queryresultprojector.cpp(182): warning C4715: 'QueryResultProjector::getIndexOf': not all control paths return a value
+     1>c:\users\edward\downloads\automaticprojecttesting_aug2015_vs2015\automaticprojecttesting_aug2015_vs2015\emptygeneraltesting\source\vartable.cpp(41): warning C4715: 'VarTable::getVarName': not all control paths return a value
+         Compiling...
+         Modifies.cpp
+     1>c:\users\edward\downloads\automaticprojecttesting_aug2015_vs2015\automaticprojecttesting_aug2015_vs2015\emptygeneraltesting\source\modifies.cpp(43): warning C4018: '<': signed/unsigned mismatch
+         Follows.cpp
+         Controller.cpp
+         Checker.cpp
+         ASTNode.cpp
+         AST.cpp
+     1>c:\users\edward\downloads\automaticprojecttesting_aug2015_vs2015\automaticprojecttesting_aug2015_vs2015\emptygeneraltesting\source\ast.cpp(294): warning C4018: '>': signed/unsigned mismatch
+         AnotherExpressionTree.cpp
+         Generating Code...
+     1>c:\users\edward\downloads\automaticprojecttesting_aug2015_vs2015\automaticprojecttesting_aug2015_vs2015\emptygeneraltesting\source\ast.cpp(361): warning C4715: 'AST::getTypeOfStatement': not all control paths return a value
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\EDWARD\Downloads\AutomaticProjectTesting_Aug2015_VS2015\AutomaticProjectTesting_Aug2015_VS2015\EmptyGeneralTesting\Debug\SPA.lib" /NOLOGO Debug\AnotherExpressionTree.obj
+         Debug\AST.obj
+         Debug\ASTNode.obj
+         Debug\Checker.obj
+         Debug\Controller.obj
+         Debug\Follows.obj
+         Debug\Modifies.obj
+         Debug\Parent.obj
+         Debug\Parser.obj
+         Debug\PKB.obj
+         Debug\Prefix.obj
+         Debug\PreProcessor.obj
+         Debug\ProcTable.obj
+         Debug\QueryController.obj
+         Debug\QueryEvaluator.obj
+         Debug\QueryResultProjector.obj
+         Debug\QueryTree.obj
+         Debug\QueryValidator.obj
+         Debug\Relationship.obj
+         Debug\RelationshipTable.obj
+         Debug\ResultTable.obj
+         Debug\StackNode.obj
+         Debug\Suffix.obj
+         Debug\UI.obj
+         Debug\Uses.obj
+         Debug\ValidatorMain.obj
+         Debug\VarTable.obj
+         SPA.vcxproj -> C:\Users\EDWARD\Downloads\AutomaticProjectTesting_Aug2015_VS2015\AutomaticProjectTesting_Aug2015_VS2015\EmptyGeneralTesting\Debug\SPA.lib
+     1>Done Building Project "C:\Users\EDWARD\Downloads\AutomaticProjectTesting_Aug2015_VS2015\AutomaticProjectTesting_Aug2015_VS2015\EmptyGeneralTesting\SPA\SPA.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:47.49

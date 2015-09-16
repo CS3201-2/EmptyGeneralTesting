@@ -1,0 +1,9 @@
+procedure Third {
+	while i {
+		i = ia + ib;
+		while j {
+			j = j + j;
+		}
+	}
+}
+	
